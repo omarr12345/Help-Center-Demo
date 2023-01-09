@@ -1,0 +1,7 @@
+.article-wrapper {
+  margin: 10px;
+  padding: 20px;
+  background-color: orange;
+  cursor: pointer;
+  font-size: 20px;
+}
