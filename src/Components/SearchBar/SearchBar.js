@@ -16,7 +16,7 @@ function SearchBar() {
         }}
       >
         <input
-          className="form-control w-50 f-w-bold search-inp"
+          className="form-control f-w-bold search-inp"
           type="text"
           onChange={(e) => {
             setWord(e.target.value);

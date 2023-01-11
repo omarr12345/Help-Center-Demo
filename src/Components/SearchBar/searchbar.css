@@ -33,3 +33,18 @@
   font-weight: bold !important;
   font-size: 20px !important;
 }
+
+@media (max-width: 425px) and (min-width: 10px) {
+  .form-control {
+    height: 50px !important;
+    font-size: 16px !important;
+  }
+
+  .search-form button img {
+    height: 30px !important;
+    width: 30px !important;
+  }
+  .search-bar form button {
+    height: 50px !important;
+  }
+}

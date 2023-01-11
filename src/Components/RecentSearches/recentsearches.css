@@ -11,3 +11,16 @@
   font-size: 18px;
   font-family: "Cairo", sans-serif;
 }
+
+.popular-searches a {
+  font-size: 16px !important;
+}
+
+@media (max-width: 425px) and (min-width: 10px) {
+  .recent-searches a {
+    color: #212529 !important;
+    font-weight: bold;
+    font-size: 16px;
+    font-family: "Cairo", sans-serif;
+  }
+}

@@ -1,0 +1,13 @@
+.article-name {
+  font-size: 30px;
+}
+
+@media (max-width: 425px) and (min-width: 10px) {
+  .article-name {
+    font-size: 20px !important;
+  }
+
+  .article-data {
+    font-size: 14px !important;
+  }
+}

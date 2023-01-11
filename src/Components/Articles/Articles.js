@@ -24,7 +24,6 @@ function Articles() {
     return v.articleTitle === "Payment";
   });
 
-  console.log(articles);
   return (
     <div className="articles container">
       <div
