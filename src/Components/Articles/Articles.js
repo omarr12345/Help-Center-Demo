@@ -5,8 +5,6 @@ import allData from "../../Backend/Data.json";
 import { Link } from "react-router-dom";
 
 function Articles() {
-  const [articles, setArticles] = useState(allData);
-
   const discoverArgaam = allData.filter((v) => {
     return v.articleTitle === "Discover Argaam.com";
   });

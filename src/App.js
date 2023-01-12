@@ -6,6 +6,7 @@ import SearchBar from "./Components/SearchBar/SearchBar";
 import { Routes } from "react-router";
 import ArticleDetails from "./Components/ArticleDetails/ArticleDetails";
 import SearchOutput from "./Components/SearchOutput/SearchOutput";
+import { Link } from "react-router-dom";
 
 function App() {
   return (

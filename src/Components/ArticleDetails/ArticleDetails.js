@@ -4,6 +4,7 @@ import "./ArticleDetails.css";
 import { useParams } from "react-router";
 import allData from "../../Backend/Data.json";
 import "../SearchOutput/searchoutput.css";
+import { Link } from "react-router-dom";
 
 function ArticleDetails() {
   let { id } = useParams();
@@ -20,6 +21,12 @@ function ArticleDetails() {
           </div>
         );
       })}
+
+      <div className="container text-center" style={{ marginBottom: "50px" }}>
+        <Link to="/" className="fw-bold">
+          Go Back To Help Center
+        </Link>
+      </div>
     </div>
   );
 }
