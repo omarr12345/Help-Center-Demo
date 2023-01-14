@@ -7,7 +7,8 @@
   -webkit-box-pack: justify;
   justify-content: center;
   width: 100%;
-  padding: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   height: 100px;
   cursor: pointer;
 }
@@ -19,14 +20,6 @@
 .search-form button img {
   height: 50px !important;
   width: 50px !important;
-}
-.search-bar form .search-form__submit {
-  cursor: pointer;
-  width: 0;
-  height: 0;
-  border: 0;
-  overflow: hidden;
-  background-image: url("../../assets/search-btn.png");
 }
 
 .search-inp {
@@ -46,5 +39,9 @@
   }
   .search-bar form button {
     height: 50px !important;
+  }
+  .search-inp {
+    font-weight: bold !important;
+    font-size: 16px !important;
   }
 }

@@ -12,8 +12,6 @@ function SearchOutput() {
     )
   );
 
-  console.log(res);
-
   useEffect(() => {
     const markInstance = new Mark(document.querySelector("#articles-cont"));
     markInstance.unmark({
@@ -25,8 +23,12 @@ function SearchOutput() {
 
   return (
     <>
-      <h3 className="fw-bold text-center">Search Results : {res.length}</h3>
-      <div className="search-output container" id="articles-cont">
+      <div className="search-res-header container-fluid my-2">
+        <h3 className="fw-bold text-center">
+          Search Results : {res.length} Articles that containes "{word}"
+        </h3>
+      </div>
+      <div className="search-output container-fluid" id="articles-cont">
         {res.map((r, index) => {
           return (
             <div key={index}>

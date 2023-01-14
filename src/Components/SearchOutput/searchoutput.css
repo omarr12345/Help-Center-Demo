@@ -2,12 +2,21 @@
   font-size: 30px;
 }
 
+.mark,
+mark {
+  background-color: yellow !important;
+  padding: 0px !important;
+}
+
 @media (max-width: 425px) and (min-width: 10px) {
   .article-name {
-    font-size: 20px !important;
+    font-size: 18px !important;
   }
 
   .article-data {
     font-size: 14px !important;
+  }
+  .search-res-header h3 {
+    font-size: 18px !important;
   }
 }
