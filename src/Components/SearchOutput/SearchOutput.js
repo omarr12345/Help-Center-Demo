@@ -25,7 +25,7 @@ function SearchOutput() {
     <>
       <div className="search-res-header container-fluid my-2">
         <h3 className="fw-bold text-center">
-          Search Results : {res.length} Articles that containes "{word}"
+          Search Results : {res.length} Articles that containe "{word}"
         </h3>
       </div>
       <div className="search-output container-fluid" id="articles-cont">
